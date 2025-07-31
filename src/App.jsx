@@ -1,14 +1,13 @@
-import './App.css'
-import WordDictation from './components/wordDictation'
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
       <main className="min-h-screen bg-gray-100 flex items-center justify-center">
-        <WordDictation />
+        <Home />
       </main>
     </>
   )
 }
 
-export default App
+export default App;
